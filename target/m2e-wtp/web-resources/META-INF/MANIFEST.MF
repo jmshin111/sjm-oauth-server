@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: jmshi
+Build-Jdk: 15-ea
+Implementation-Title: sjm-oauth-server
+Implementation-Version: 2.1.3.RELEASE
+Implementation-Vendor-Id: org.springframework.boot
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/sjm-oauth-server
+Main-Class: com.sjm.config.AuthorizationServerApplication
+Created-By: Maven Integration for Eclipse
+
