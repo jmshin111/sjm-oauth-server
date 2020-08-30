@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.test.AuthServerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.561 s <<< FAILURE! - in com.baeldung.test.AuthServerIntegrationTest
+initializationError(com.baeldung.test.AuthServerIntegrationTest)  Time elapsed: 0.045 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+

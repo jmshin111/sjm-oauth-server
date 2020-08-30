@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.baeldung.test.TokenRevocationLiveTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.421 s <<< FAILURE! - in com.baeldung.test.TokenRevocationLiveTest
+whenObtainingAccessToken_thenCorrect(com.baeldung.test.TokenRevocationLiveTest)  Time elapsed: 5.42 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.baeldung.test.TokenRevocationLiveTest.obtainAccessToken(TokenRevocationLiveTest.java:37)
+	at com.baeldung.test.TokenRevocationLiveTest.whenObtainingAccessToken_thenCorrect(TokenRevocationLiveTest.java:21)
+
