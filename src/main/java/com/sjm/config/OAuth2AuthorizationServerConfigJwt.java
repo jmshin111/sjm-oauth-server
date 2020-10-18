@@ -102,8 +102,8 @@ public class OAuth2AuthorizationServerConfigJwt extends AuthorizationServerConfi
 		 * converter;
 		 */
         
-        KeyStoreKeyFactory keyStoreKeyFactory = new KeyStoreKeyFactory(new FileSystemResource("src/main/resources/oauth2jwt.jks"), "oauth2jwtpass".toCharArray());
-        converter.setKeyPair(keyStoreKeyFactory.getKeyPair("oauth2jwt"));
+        KeyStoreKeyFactory keyStoreKeyFactory = new KeyStoreKeyFactory(new FileSystemResource("src/main/resources/oauth2jwthy2.jks"), "oauth2jwtpass".toCharArray());
+        converter.setKeyPair(keyStoreKeyFactory.getKeyPair("oauth2jwthy2"));
         return converter;
     }
 
